@@ -1,0 +1,120 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-right:30px ;
+}
+
+a{
+    text-decoration: none;
+    color:#333333;
+    font-size: 14px;
+} 
+.menu-top{
+    background: #E5E5E5;
+    padding-top:16px;
+    padding-bottom: 16px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.logo{
+
+}
+.logo>a{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #66C05D;
+}
+.logo>a>img{
+    padding-right: 20px;
+}
+.menu{
+    border-bottom: 1px solid #EFEFEF;;
+}
+.contact>.tel{
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+.contact>.btn{
+    font-size: 14px;
+    font-family: 600;
+    padding: 13px 27px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+.btn:hover{
+    background: #66C05D;
+    color:#EFEFEF;
+}
+.menu-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding: 20px 0; */
+}
+.bottom{
+    padding: 30px 0;
+}
+.bottom>li{
+    margin-right: 40px;
+}
+.bottom>li>a{
+    font-size: 16px;
+}
+.slider{
+    background: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 193px 0;
+}
+.slider-head{
+    color: #FFFFFF;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.slider-text{
+    width: 308px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    
+}
+.slider-button{
+    padding-top: 47px;
+}
+.slider-btn{
+    color:#FFFFFF;
+    font-size: 14px;
+    padding: 10px 43px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+/* padding - внутринний отступ */
+/* padding:10px 20px 10px 20px */
+/* margin - внешний */
+/* margin:10px 20px 10px 20px */

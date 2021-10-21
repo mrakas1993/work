@@ -29,9 +29,6 @@ a{
     max-width: 1110px;
     margin: 0 auto;
 }
-.logo{
-
-}
 .logo>a{
     display: flex;
     align-items: center;
@@ -111,10 +108,3 @@ a{
     border: 2px solid #FFFFFF;
     border-radius: 40px;
 }
-/* h2{
-    color:red;
-} */
-/* padding - внутринний отступ */
-/* padding:10px 20px 10px 20px */
-/* margin - внешний */
-/* margin:10px 20px 10px 20px */

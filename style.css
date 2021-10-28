@@ -20,6 +20,10 @@ a{
     color:#333333;
     font-size: 14px;
 } 
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
 .menu-top{
     background: #E5E5E5;
     padding-top:16px;
@@ -107,4 +111,98 @@ a{
     padding: 10px 43px;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
+}
+.main{
+    background: #EFEFEF;
+    padding-top: 80px;
+    padding-bottom: 132px;
+}
+.main-title{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-item{
+    background: #FFFFFF;
+    width: 255px;
+    padding: 25px 0;
+    text-align: center;
+}
+.content-item>img{
+    padding-bottom: 20px;
+}
+.content-item>p{
+    width: 162px;
+    font-size: 14px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.content-item>h3{
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+.content-item>a{
+    background: #66C05D;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.footer-1{
+    background: white;
+    padding:38px 0 ;
+}
+.footer-logo>a{
+    margin-right: 20px;
+}
+.street{
+    font-size: 14px;
+    color:#000000;
+}
+.footer-phone{
+ font-size: 16px;   
+}
+.footer-btn{
+    font-size: 14px;
+    padding: 12px 24px 10px 25px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    width: 667px;
+    align-items: center;
+}
+.footer-call{
+    display: flex;
+    align-items: center;
+}
+.footer-phone{
+    margin-right: 37px;
+}
+.footer-2{
+    background: #EFEFEF;
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+.footer-politic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-politic>p{
+    color: #828282;
+    font-size: 12px;
+}
+.footer-politic>a{
+    color: #828282;
+    font-size: 12px;
 }
